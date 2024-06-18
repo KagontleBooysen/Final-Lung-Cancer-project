@@ -2,3 +2,4 @@ Flask==3.0.3
 requests==2.25.1
 gunicorn==20.0.4
 transformers==4.41.2
+tensorflow
