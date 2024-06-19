@@ -1,0 +1,10 @@
+[build]
+  command = "pip install -r requirements.txt && python app.py"
+  publish = "build"
+
+[context.production.environment]
+  PYTHON_VERSION = "3.9.13"
+  PIP_NO_CACHE_DIR = "off"
+
+[[plugins]]
+  package = "netlify-plugin-cache-pip"
