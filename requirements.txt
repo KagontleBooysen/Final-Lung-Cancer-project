@@ -2,4 +2,4 @@ Flask==2.0.2
 torch
 transformers
 gunicorn==20.1.0
-werkzeug
+werkzeug==2.1.2
