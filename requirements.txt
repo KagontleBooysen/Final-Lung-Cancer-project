@@ -1,4 +1,4 @@
 Flask==2.0.1
 transformers==4.18.0
-light-the-torch==0.7.5
+tflite-runtime==2.5.0
 gunicorn==20.1.0
