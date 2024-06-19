@@ -1,4 +1,4 @@
 Flask==2.1.1
 transformers==2.2.0
-torch==0.7.5
+torch==1.13.0
 gunicorn==0.1.0
