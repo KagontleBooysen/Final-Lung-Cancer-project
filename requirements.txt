@@ -11,7 +11,7 @@ itsdangerous==2.1.2
 Jinja2==3.1.1
 joblib==1.1.0
 MarkupSafe==2.1.1
-numpy==1.19.2
+numpy==1.21.5
 packaging==21.3
 pyparsing==3.0.7
 PyYAML==6.0
@@ -27,4 +27,4 @@ typing_extensions==4.1.1
 urllib3==1.26.9
 Werkzeug==2.1.1
 zipp==3.8.0
-gunicorn==20.0.0
+gunicorn
