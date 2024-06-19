@@ -46,3 +46,4 @@ urllib3==1.26.4
 Werkzeug==2.0.1
 wincertstore==0.2
 wrapt==1.12.1
+transformers==2.2.2
