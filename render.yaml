@@ -1,4 +1,0 @@
-services:
-  - name: Final-Lung-Cancer-project
-    buildCommand: python app.py
-    publishDir: .
