@@ -1,13 +1,13 @@
 databases:
   - name: mysitedb
     plan: free
-    databaseName: mysite
-    user: mysite
+    databaseName: python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker
+    user: python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker
 
 services:
   - type: web
     plan: free
-    name: mysite
+    name: python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker
     runtime: python
     buildCommand: "./build.sh"
     startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
