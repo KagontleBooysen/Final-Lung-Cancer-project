@@ -1,6 +1,6 @@
-from transformers import BertTokenizer, TFBertForQuestionAnswering
+from transformers import BertTokenizer, BertForQuestionAnswering
 from flask import Flask, request, jsonify, render_template
-import tensorflow as tf
+import torch
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -12,7 +12,7 @@ def home():
 # Load the pre-trained BERT model and tokenizer for question answering
 model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
 tokenizer = BertTokenizer.from_pretrained(model_name)
-model = TFBertForQuestionAnswering.from_pretrained(model_name)
+model = BertForQuestionAnswering.from_pretrained(model_name)
 
 # Sample context for the chatbot to answer questions from
 context = """
@@ -30,23 +30,24 @@ def chat():
         app.logger.info(f"Received question: {question}")
         
         # Tokenize the input message and context
-        inputs = tokenizer.encode_plus(question, context, return_tensors='tf')
+        inputs = tokenizer.encode_plus(question, context, return_tensors='pt')
 
         # Get the model's output
-        outputs = model(inputs)
+        with torch.no_grad():
+            outputs = model(**inputs)
 
         # Extract the answer start and end logits
         start_logits = outputs.start_logits
         end_logits = outputs.end_logits
 
         # Get the most likely start and end token positions
-        start_index = tf.argmax(start_logits, axis=-1).numpy()[0]
-        end_index = tf.argmax(end_logits, axis=-1).numpy()[0]
+        start_index = torch.argmax(start_logits, dim=-1).item()
+        end_index = torch.argmax(end_logits, dim=-1).item()
 
         # Check if the indices are valid
         if start_index <= end_index and start_index < len(inputs['input_ids'][0]) and end_index < len(inputs['input_ids'][0]):
             # Convert token indices back to tokens
-            input_ids = inputs['input_ids'].numpy()[0]
+            input_ids = inputs['input_ids'].squeeze().tolist()
             answer_tokens = tokenizer.convert_ids_to_tokens(input_ids[start_index:end_index+1])
 
             # Clean the answer and convert it to lowercase
