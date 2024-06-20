@@ -1,7 +1,7 @@
+import os
 from transformers import BertTokenizer, BertForQuestionAnswering
 from flask import Flask, request, jsonify, render_template
 import torch
-import os
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -59,5 +59,6 @@ def chat():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8080)) 
+    # Heroku provides the port dynamically, so we need to get it from there
+    port = int(os.environ.get('PORT', 5000))  
     app.run(host='0.0.0.0', port=port)
