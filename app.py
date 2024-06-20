@@ -1,7 +1,7 @@
 from transformers import BertTokenizer, BertForQuestionAnswering
 from flask import Flask, request, jsonify, render_template
-from werkzeug.urls import url_quote
 import torch
+import os
 
 # Initialize the Flask application
 app = Flask(__name__)
