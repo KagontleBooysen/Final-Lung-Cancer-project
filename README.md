@@ -2,8 +2,11 @@
 
 ![chatbot2](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/assets/106469425/9432dfb5-3378-4914-815b-359b6a88ddd9)
                          
+![chatbot3](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/assets/106469425/09a4c8e3-635f-4c2d-8265-b252156d14e4)
+                                             
+![Chatbot1png](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/assets/106469425/d7fb26b5-2097-4023-bc17-39adb76a39d3)
 
-                                                    
+![Lung Cancer main png](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/assets/106469425/9b7290f8-cb78-4e33-b2df-dd590a66e670)
 
 
 Access my deployment model here : https://airbnbclone-aagtyqhkcg8prwr3i825ed.streamlit.app/
