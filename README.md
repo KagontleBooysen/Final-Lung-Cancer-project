@@ -2,8 +2,10 @@
                                         
 
                                                     
-![Heart_disease](https://github.com/KagontleBooysen/Heart-Disease-Prediction/assets/106469425/a992951e-f6f8-4a36-9f99-fa2fe713d5fb)
+![Heart_disease](https://github.com/KagontleBooysen/Heart-Disease-Prediction/assets/106469425/a992951e-f6f8-4a36-9f99-fa2fe713d5f)
+![Uploading Lung Cancer main png.png…]()
 
+![Uploading chatbot3.png…]()
 
 Access my deployment model here : https://airbnbclone-aagtyqhkcg8prwr3i825ed.streamlit.app/
 
