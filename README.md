@@ -2,7 +2,8 @@
                                         
 
                                                     
-![Heart_disease](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/chatbot3.png)
+![Alt text](images/image.png)
+
 
 
 Access my deployment model here : https://airbnbclone-aagtyqhkcg8prwr3i825ed.streamlit.app/
