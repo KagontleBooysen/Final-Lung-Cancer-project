@@ -1,7 +1,3 @@
-keras
-Keras-Preprocessing
-packaging
-pandas
 requests
 requests-oauthlib 
 streamlit
