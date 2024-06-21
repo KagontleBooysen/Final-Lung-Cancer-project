@@ -2,7 +2,7 @@
                                         
 
                                                     
-![Alt text](images/image.png)
+![Alt text](images/LUNG Cancer main png.png.png)
 
 
 
