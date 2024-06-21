@@ -1,8 +1,10 @@
 # **Lung Cancer Chatbot**
-   C:\Users\Lenovo\Images\Final-Lung-Cancer-project\images\Chatbot1png.png                                     
+              ![chatbot2](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/assets/106469425/9432dfb5-3378-4914-815b-359b6a88ddd9)
+                         
 
                                                     
 
+![Lung Cancer main png](https://github.com/KagontleBooysen/Final-Lung-Cancer-project/assets/106469425/921ed265-d5d4-4457-95ea-c2e92af80667)
 
 
 Access my deployment model here : https://airbnbclone-aagtyqhkcg8prwr3i825ed.streamlit.app/
