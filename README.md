@@ -1,8 +1,7 @@
 # **Lung Cancer Chatbot**
-                                        
+   C:\Users\Lenovo\Images\Final-Lung-Cancer-project\images\Chatbot1png.png                                     
 
                                                     
-![Alt text](images/LUNG Cancer main png.png.png)
 
 
 
