@@ -1,16 +1,5 @@
-fastapi
-importlib-metadata
-joblib
-jsonschema
 keras
 Keras-Preprocessing
-MarkupSafe
-matplotlib-inline
-nltk
-notebook
-numpy
-oauthlib
-opt-einsum
 packaging
 pandas
 requests
