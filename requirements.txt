@@ -1,9 +1,5 @@
-requests-oauthlib 
 streamlit
 streamlit-chat
 tensorflow
 transformers
-typing_extensions
-urllib3
-uvicorn
 torch
