@@ -11,10 +11,10 @@ Access my deployment model here : https://heart-disease-booysen-9a7cd57bba1a.her
 The Lung Cancer Chatbot is an interactive application designed to provide information and support regarding lung cancer, particularly within the context of South Africa. The chatbot aims to educate users about the risk factors, symptoms, diagnosis, treatment options, and public health initiatives related to lung cancer.
 
 ## Features
-- ## Information Retrieval: Users can retrieve information about lung cancer, including its prevalence, risk factors such as smoking and environmental exposures, and symptoms.
-- ## Treatment Options: Details about various treatment modalities available for lung cancer patients, including surgery, chemotherapy, radiation therapy, targeted therapy, and immunotherapy.
-- ## Public Health Efforts: Insights into ongoing public health initiatives aimed at preventing and managing lung cancer in South Africa, such as anti-smoking campaigns and early detection programs.
-- ## Support Resources: Information on support services and resources available for lung cancer patients and their families, including palliative care and community support groups.
+- ## Information Retrieval ##: Users can retrieve information about lung cancer, including its prevalence, risk factors such as smoking and environmental exposures, and symptoms.
+- ## Treatment Options ##: Details about various treatment modalities available for lung cancer patients, including surgery, chemotherapy, radiation therapy, targeted therapy, and immunotherapy.
+- ## Public Health Efforts ##: Insights into ongoing public health initiatives aimed at preventing and managing lung cancer in South Africa, such as anti-smoking campaigns and early detection programs.
+- ## Support Resources ##: Information on support services and resources available for lung cancer patients and their families, including palliative care and community support groups.
 
 ## Usage
 1. Installation: Clone the repository and install necessary dependencies using pip install -r requirements.txt.
