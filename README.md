@@ -12,7 +12,7 @@
 
 Access my deployment model here : https://airbnbclone-aagtyqhkcg8prwr3i825ed.streamlit.app/
 
-Datasets: https://huggingface.co/google-bert/bert-large-uncased-whole-word-masking-finetuned-squad
+Datasets:[ ](https://docs.openvino.ai/2022.3/omz_models_model_bert_large_uncased_whole_word_masking_squad_0001.html)
 
 ## Overview
 The Lung Cancer Chatbot is an interactive application designed to provide information and support regarding lung cancer, particularly within the context of South Africa. The chatbot aims to educate users about the risk factors, symptoms, diagnosis, treatment options, and public health initiatives related to lung cancer.
